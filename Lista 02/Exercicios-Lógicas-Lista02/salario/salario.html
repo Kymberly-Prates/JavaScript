@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/script.js" defer></script>
+
+
+    <link rel="stylesheet" href="../css/style-telas.css">
+    <link rel="stylesheet" href="./css/style-global.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Salario</title>
+</head>
+<body>
+    <body>
+
+        <div class="container">
+            <div class="partet">
+                <div class="text">
+                    <p>Salário mensal atual de um funcionário e o percentual de reajuste.</p> <!--Titulo-->
+                </div>
+                <div class="conteudo">
+                    <form action="">
+                        <p>Digite o salário  mensal inicial: </p>
+                        <input type="number" id="mensal" placeholder="Inicial" required> <!-- primeira caixa--> 
+    
+                        <p>Digite a porcentagem do rejuste: </p>
+                        <input type="number" id="reajuste" placeholder="ex:10" required> <!-- primeira caixa-->
+    
+                        <p>O novo salario com o atual reajuste é de</p>
+                        <input type="text" id="calculoreajuste">  <!-- segunda caixa-->
+                        <input type="button" value="calcular o novo slario" onclick="salario()"><br> 
+                    </form>
+                </div>
+                <a href="../eleitores/eleitores.html"><input type="submit" value="Voltar"></a> <!--ver a conexão-->
+                <a href="../index.html"><input type="submit" value="Inicio"></a> <!--ver a conexão-->
+            </div>
+        </div>
+    
+         <!-- Bootstrap -->
+         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+         crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+         integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+         crossorigin="anonymous"></script>
+    </body>
+    </html>
+</body>
+</html>
